@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from distutils.core import setup
-from setuptools import find_packages
+from setuptools import find_packages, setup
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
