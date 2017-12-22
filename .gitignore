@@ -1,0 +1,43 @@
+# Python bytecode:
+*.py[co]
+
+# Python venv
+.env/*
+
+# Packaging files:
+*.egg*
+
+# Sphinx docs:
+build
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# VS Code
+.vscode
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
