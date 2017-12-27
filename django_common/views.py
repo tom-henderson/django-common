@@ -34,7 +34,7 @@ class StaffLoginRequiredMixin(object):
         return HttpResponse('Unauthorized', status=401)
 
 
-class GenericLogOutView(RedirectView):
+class LogOutRedirectView(RedirectView):
     """
     Provides users the ability to log out.
     Override url when subclassing.
